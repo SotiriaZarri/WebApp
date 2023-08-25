@@ -5,6 +5,7 @@ pipeline{
                 steps {
                     checkout scm
                 }
+<<<<<<< HEAD
             }
 
               stage('Build') {
@@ -45,3 +46,8 @@ pipeline{
             }
        }
    }
+=======
+                }
+            }
+}
+>>>>>>> 3681192086f17cbddec11419e4531f4588a0c43f
