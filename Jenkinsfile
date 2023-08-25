@@ -5,14 +5,12 @@ pipeline{
                 steps {
                     checkout scm
                 }
-
+            }                                                                                                                }
+            stage('Build') {
+                  steps {
+                    sh 'mvn clean package'
+                  }
             }
-
-              stage('Build') {
-                              steps {
-                                sh 'mvn clean package'
-                              }
-              }
 
             stage('Test') {
                   steps {
@@ -22,13 +20,11 @@ pipeline{
 
             stage('Stop Docker Maven'){
                 steps {
-                            script{
-                                sh 'docker compose stop'
-                            }
-                        }
+                    script{
+                        sh 'docker compose stop'
+                    }
+                }
             }
-
-
 
             stage('Docker Build'){
                 steps{
@@ -44,9 +40,7 @@ pipeline{
                 sh 'docker compose up'
                 }
             }
-       }
-   }
-                }
-            }
+
+    }
 }
 
