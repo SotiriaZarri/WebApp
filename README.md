@@ -35,7 +35,7 @@ WebApp provides a set of REST APIs for managing sensor data.
       java -jar target/WebApp.jar
 
 2. Once the application is running, you can access it by navigating to http://localhost:8090 in your web browser.
-3. Now you can interact with Rest APIs and stoe Sensor readings or retrieve by POST and GETS requests.
+3. Now you can interact with Rest APIs and store Sensor readings or retrieve by POST and GETS requests.
    
 # Dockerization
 
