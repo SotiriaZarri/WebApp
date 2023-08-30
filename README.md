@@ -21,8 +21,11 @@ Before you start using WebApp, please ensure you have the following prerequisite
 To get started with WebApp, follow these steps:
 
 Clone this repository: git clone https://github.com/SotiriaZarri/WebApp.git
+
 Change into the project directory: cd WebApp
+
 Build and package the project: mvn clean package
+
 Run the application: java -jar target/WebApp.jar
 
 # Usage
