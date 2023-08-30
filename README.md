@@ -48,3 +48,5 @@ Open a terminal window and navigate to the project directory.
 Use the following command to build the Docker image:
 docker build -t webapp:latest .
 This command will build a Docker image named webapp with the tag latest using the current directory (.) as the build context.
+# UML diagram
+![uml1 drawio](https://github.com/SotiriaZarri/WebApp/assets/138468560/72f3d5a3-834c-458a-b174-2eaff99a7e98)
