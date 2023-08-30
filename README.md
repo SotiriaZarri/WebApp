@@ -29,7 +29,7 @@ Run the application: java -jar target/WebApp.jar
 WebApp provides a set of REST APIs for managing sensor data. 
 1. After building the project you can run the application using the following command:
 
-java -jar target/WebApp.jar
+      java -jar target/WebApp.jar
 
 2. Once the application is running, you can access it by navigating to http://localhost:8090 in your web browser.
 3. Now you can interact with Rest APIs and stoe Sensor readings or retrieve by POST and GETS requests.
